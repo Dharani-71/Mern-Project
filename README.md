@@ -1,16 +1,47 @@
-# React + Vite
+# Task Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
+A full-stack Task Management Application developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This application helps users organize and manage their daily tasks through a simple and user-friendly interface.
 
-Currently, two official plugins are available:
+## Features
+- Add new tasks.
+- View all tasks.
+- Edit existing tasks.
+- Delete tasks.
+- Simple and interactive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+**Frontend:**
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Vite
 
-## React Compiler
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
+- `frontend/` – Contains the React application.
+- `backend/` – Contains the server-side code and API logic.
 
-## Expanding the ESLint configuration
+## Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+```bash
+cd backend
+npm install
+npm start
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## Purpose
+This project was developed to improve practical knowledge of full-stack web development, REST API integration, and database operations.
